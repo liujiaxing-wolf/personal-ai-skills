@@ -14,6 +14,7 @@
 | `reconstruct-agent-prompt` | 为单个目标 Agent 编写可追溯的功能等价 System Prompt | 本仓库维护 |
 | `reverse-product-architecture` | 综合 Agent、工具、上下文、资产、模型和治理形成产品架构 | 本仓库维护 |
 | `reverse-ai-product-suite` | 编排上述四个逆向分析 Skill，并交付四份 HTML 报告 | 本仓库维护 |
+| `github-web-publisher` | 通过已登录 GitHub 网页会话安全发布和校验本地 Skill | 本仓库维护 |
 
 ## 安装到 Codex
 
@@ -28,6 +29,7 @@ cp -R personal-ai-skills/skills/reverse-agent-contracts ~/.codex/skills/
 cp -R personal-ai-skills/skills/reconstruct-agent-prompt ~/.codex/skills/
 cp -R personal-ai-skills/skills/reverse-product-architecture ~/.codex/skills/
 cp -R personal-ai-skills/skills/reverse-ai-product-suite ~/.codex/skills/
+cp -R personal-ai-skills/skills/github-web-publisher ~/.codex/skills/
 ```
 
 安装或更新后，请新建一个 Codex 任务，让技能清单重新加载。
@@ -49,6 +51,7 @@ cp -R personal-ai-skills/skills/reverse-ai-product-suite ~/.codex/skills/
 使用 $reconstruct-agent-prompt 为艺术总监编写功能等价 System Prompt。
 使用 $reverse-product-architecture 输出完整的 AI 产品架构拆解。
 使用 $reverse-ai-product-suite 一次完成四份 HTML 逆向分析报告。
+使用 $github-web-publisher 通过当前 GitHub 网页会话发布本地 Skill。
 ```
 
 ## 许可与署名
