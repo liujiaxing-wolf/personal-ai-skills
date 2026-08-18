@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 产品全景架构逆向"
+  short_description: "将功能、Agent、工具、上下文、模型与资产还原为全景架构"
+  default_prompt: "Use $reverse-product-architecture to build an evidence-tiered AI product architecture HTML."
