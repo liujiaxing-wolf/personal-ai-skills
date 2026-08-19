@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI 产品逆向拆解套件"
-  short_description: "一次完成用户旅程、Agent 契约、单 Agent Prompt 与全景架构"
-  default_prompt: "Use $reverse-ai-product-suite on this product evidence folder and produce the complete four-HTML reverse-engineering bundle."

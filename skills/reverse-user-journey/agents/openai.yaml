@@ -1,4 +1,0 @@
-interface:
-  display_name: "产品用户旅程逆向取证"
-  short_description: "基于页面、聊天、画布与资产证据还原完整用户旅程"
-  default_prompt: "Use $reverse-user-journey to inspect these product screenshots and produce an evidence-based user journey HTML."

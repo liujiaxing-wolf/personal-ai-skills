@@ -7,14 +7,14 @@
 | Skill | 用途 | 来源 |
 | --- | --- | --- |
 | `agent-reach` | 互联网搜索与多平台内容读取路由 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) |
-| `humanizer-zh` | 中文去 AI 味、减少翻译腔与机械表达 | [ai-zixun/humanizer-zh](https://github.com/ai-zixun/humanizer-zh) |
-| `human-writing` | 从想法扩散、研究和辩论到中文成稿、配图与复审 | 本仓库维护 |
-| `reverse-user-journey` | 基于页面证据还原用户旅程、分支、情绪、痛点与机会点 | 本仓库维护 |
-| `reverse-agent-contracts` | 识别可见 Agent 并拆解输入、判断、工具、输出和交接契约 | 本仓库维护 |
-| `reconstruct-agent-prompt` | 为单个目标 Agent 编写可追溯的功能等价 System Prompt | 本仓库维护 |
-| `reverse-product-architecture` | 综合 Agent、工具、上下文、资产、模型和治理形成产品架构 | 本仓库维护 |
-| `reverse-ai-product-suite` | 编排上述四个逆向分析 Skill，并交付四份 HTML 报告 | 本仓库维护 |
-| `github-web-publisher` | 通过已登录 GitHub 网页会话安全发布和校验本地 Skill | 本仓库维护 |
+| `humanize-chinese` | 中文去 AI 味、减少翻译腔与机械表达 | [ai-zixun/humanizer-zh](https://github.com/ai-zixun/humanizer-zh) |
+| `write-natural-chinese` | 从想法扩散、研究和辩论到自然中文成稿、配图与复审 | 本仓库维护 |
+| `map-user-journey` | 基于页面证据梳理用户旅程、分支、情绪、痛点与机会点 | 本仓库维护 |
+| `map-agent-contracts` | 识别可见 Agent 并梳理输入、判断、工具、输出和交接契约 | 本仓库维护 |
+| `rebuild-agent-prompt` | 为单个目标 Agent 还原可追溯的功能等价 System Prompt | 本仓库维护 |
+| `map-product-architecture` | 综合 Agent、工具、上下文、资产、模型和治理梳理产品架构 | 本仓库维护 |
+| `reverse-ai-product` | 编排四个逆向分析 Skill，交付用户旅程、Agent 契约、Prompt 与产品架构报告 | 本仓库维护 |
+| `github-publish` | 通过已登录 GitHub 网页会话安全发布和校验本地 Skill | 本仓库维护 |
 
 ## 安装到 Codex
 
@@ -22,14 +22,14 @@
 git clone https://github.com/liujiaxing-wolf/personal-ai-skills.git
 mkdir -p ~/.codex/skills
 cp -R personal-ai-skills/skills/agent-reach ~/.codex/skills/
-cp -R personal-ai-skills/skills/humanizer-zh ~/.codex/skills/
-cp -R personal-ai-skills/skills/human-writing ~/.codex/skills/
-cp -R personal-ai-skills/skills/reverse-user-journey ~/.codex/skills/
-cp -R personal-ai-skills/skills/reverse-agent-contracts ~/.codex/skills/
-cp -R personal-ai-skills/skills/reconstruct-agent-prompt ~/.codex/skills/
-cp -R personal-ai-skills/skills/reverse-product-architecture ~/.codex/skills/
-cp -R personal-ai-skills/skills/reverse-ai-product-suite ~/.codex/skills/
-cp -R personal-ai-skills/skills/github-web-publisher ~/.codex/skills/
+cp -R personal-ai-skills/skills/humanize-chinese ~/.codex/skills/
+cp -R personal-ai-skills/skills/write-natural-chinese ~/.codex/skills/
+cp -R personal-ai-skills/skills/map-user-journey ~/.codex/skills/
+cp -R personal-ai-skills/skills/map-agent-contracts ~/.codex/skills/
+cp -R personal-ai-skills/skills/rebuild-agent-prompt ~/.codex/skills/
+cp -R personal-ai-skills/skills/map-product-architecture ~/.codex/skills/
+cp -R personal-ai-skills/skills/reverse-ai-product ~/.codex/skills/
+cp -R personal-ai-skills/skills/github-publish ~/.codex/skills/
 ```
 
 安装或更新后，请新建一个 Codex 任务，让技能清单重新加载。
@@ -44,14 +44,14 @@ cp -R personal-ai-skills/skills/github-web-publisher ~/.codex/skills/
 
 ```text
 使用 $agent-reach 调研这个主题的公开资料和讨论。
-使用 $humanizer-zh 把这篇中文稿改得更自然。
-使用 $human-writing 从这个想法开始，陪我研究并完成一篇文章。
-使用 $reverse-user-journey 基于截图还原这个产品的用户旅程。
-使用 $reverse-agent-contracts 拆解页面中实际出现的所有 Agent 契约。
-使用 $reconstruct-agent-prompt 为艺术总监编写功能等价 System Prompt。
-使用 $reverse-product-architecture 输出完整的 AI 产品架构拆解。
-使用 $reverse-ai-product-suite 一次完成四份 HTML 逆向分析报告。
-使用 $github-web-publisher 通过当前 GitHub 网页会话发布本地 Skill。
+使用 $humanize-chinese 把这篇中文稿改得更自然。
+使用 $write-natural-chinese 从这个想法开始，陪我研究并完成一篇文章。
+使用 $map-user-journey 基于截图梳理这个产品的用户旅程。
+使用 $map-agent-contracts 梳理页面中实际出现的所有 Agent 契约。
+使用 $rebuild-agent-prompt 为艺术总监还原功能等价 System Prompt。
+使用 $map-product-architecture 输出完整的 AI 产品架构梳理。
+使用 $reverse-ai-product 一次完成四份 HTML 逆向分析报告。
+使用 $github-publish 通过当前 GitHub 网页会话发布本地 Skill。
 ```
 
 ## 许可与署名

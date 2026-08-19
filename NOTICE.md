@@ -9,14 +9,14 @@
 - 许可证：MIT
 - 本仓库内容：本机安装所得的 `SKILL.md`、英文版本与按平台拆分的参考文件，并补入上游 MIT License。
 
-## humanizer-zh
+## humanize-chinese
 
 - 上游项目：https://github.com/ai-zixun/humanizer-zh
 - 原作者：aizixun
 - 许可证：MIT
-- 本仓库内容：运行所需的 Skill、参考语料索引、界面元数据和上游说明文件。
+- 本仓库内容：以 `humanize-chinese` 名称发布的 Skill、参考语料索引、界面元数据和上游说明文件。
 
-## human-writing
+## write-natural-chinese
 
 - 许可证：MIT
 - 本仓库内容：个人维护的中文选题、研究、写作、配图和复审工作流。
